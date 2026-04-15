@@ -20,19 +20,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: Marcus-Johnson
           MAX_REPOS: 10
-          SETTING_JSON: |
-            {
-              "type": "normal",
-              "backgroundColor": "#0D1117",
-              "foregroundColor": "#58a6ff",
-              "contributionColorScheme": [
-                "#0D1117",
-                "#0e4429",
-                "#006d32",
-                "#26a641",
-                "#39d353"
-              ]
-            }
+          # Point this to the new file you will create in step 2
+          SETTING_JSON: profile-3d-settings.json
 
       - run: |
           git config user.email "action@github.com"
