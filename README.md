@@ -1,6 +1,6 @@
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:1f6feb,50:a371f7,100:38bdf8&height=200&section=header&text=Marcus%20J.&fontSize=60&fontAlignY=35&desc=Senior%20AI%20%26%20Full-Stack%20Engineer&descAlignY=55&descAlign=50&fontColor=ffffff&animation=fadeIn)
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:1f6feb,50:a371f7,100:38bdf8&height=200&section=header&text=Marcus%20J.&fontSize=60&fontAlignY=35&desc=Senior%20AI%20and%20Full-Stack%20Engineer&descAlignY=55&descAlign=50&fontColor=ffffff&animation=fadeIn)
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=false&width=600&lines=Creator+of+QubitsJS+%E2%80%94+Quantum+Computing+for+Node.js;Senior+AI+%26+Full-Stack+Engineer;Microservices+Architect+%7C+Cloud+Infrastructure;Open+Source+Maintainer+%7C+Remote)](https://git.io/typing-svg)
 
@@ -8,7 +8,7 @@
 
 ![](https://komarev.com/ghpvc/?username=Marcus-Johnson&color=1f6feb&style=flat-square&label=profile+views)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marcusdevelops/)
-[![npm](https://img.shields.io/badge/npm-Marcus--Johnson-CB3837?style=flat-square&logo=npm&logoColor=white)](https://www.npmjs.com/~marcusjohnson)
+[![npm](https://img.shields.io/badge/npm-noordinaryts-CB3837?style=flat-square&logo=npm&logoColor=white)](https://www.npmjs.com/~noordinaryts)
 
 </div>
 
@@ -64,7 +64,7 @@
 ### 🌐 3D Contribution Graph
 
 <div align="center">
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph"/>
+  <img src="./profile-3d-contrib/profile-customize.svg" alt="3D Contribution Graph"/>
 </div>
 
 ---
