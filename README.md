@@ -56,7 +56,7 @@
 ### 🏆 Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Marcus-Johnson&theme=onestar&no-frame=true&no-bg=true&margin-w=4&column=7"/>
+  <img src="https://raw.githubusercontent.com/Marcus-Johnson/Marcus-Johnson/output/github-achievements.svg" alt="GitHub Achievements" />
 </div>
 
 ---
