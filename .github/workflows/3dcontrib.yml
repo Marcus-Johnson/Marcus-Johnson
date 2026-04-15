@@ -1,0 +1,42 @@
+name: 3D Contribution Graph
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Generate 3D Contribution Graph
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: Marcus-Johnson
+          MAX_REPOS: 10
+          SETTING_JSON: |
+            {
+              "type": "normal",
+              "backgroundColor": "#0D1117",
+              "foregroundColor": "#58a6ff",
+              "contributionColorScheme": [
+                "#0D1117",
+                "#0e4429",
+                "#006d32",
+                "#26a641",
+                "#39d353"
+              ]
+            }
+
+      - run: |
+          git config user.email "action@github.com"
+          git config user.name "GitHub Action"
+          git add -A
+          git diff --staged --quiet || git commit -m "chore: update 3D contribution graph"
+          git push
